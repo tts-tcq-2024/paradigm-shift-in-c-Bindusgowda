@@ -31,7 +31,7 @@ int check_ChargeRate(float CR)
   return 1;
 }
  
-bool batteryIsOk(float temperature, float soc, float CR)
+bool check_Battery(float temperature, float soc, float CR)
 {
   return check_temperature(temperature) && check_soc(soc) && check_ChargeRate(CR);
 }
