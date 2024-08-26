@@ -31,12 +31,12 @@ int check_ChargeRate(float CR)
   return 1;
 }
  
-bool check_Battery(float temperature, float soc, float CR)
+int check_Battery(float temperature, float soc, float CR)
 {
   return check_temperature(temperature) && check_soc(soc) && check_ChargeRate(CR);
 }
  
 int main() {
-  assert(batteryIsOk(25, 70, 0.7) == true);
-  assert(batteryIsOk(50, 85, 0) == false);
+  assert(batteryIsOk(25, 70, 0.7) == 1);
+  assert(batteryIsOk(50, 85, 0) == 0);
 }
