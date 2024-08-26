@@ -38,5 +38,5 @@ int check_Battery(float temperature, float soc, float CR)
  
 int main() {
   assert(check_Battery(25, 70, 0.7));
-  assert(check_Battery(50, 85, 0));
+  assert(!check_Battery(50, 85, 0));
 }
