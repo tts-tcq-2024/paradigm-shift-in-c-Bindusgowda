@@ -2,8 +2,18 @@
 #define BATTERY_MONITOR_H
 
 #include <stdio.h>
-#include "config_parameters.h"
 #include "parameter_state.h"
+
+#define CHARGE_RATE_MAX 0.8
+#define TEMPERATURE_MIN 0.0
+#define TEMPERATURE_MAX 45.0
+#define SOC_MIN 20.0
+#define SOC_MAX 80.0
+
+#define TOLERANCE_PERCENTAGE 0.05
+#define WARN_FOR_TEMPERATURE 1
+#define WARN_FOR_SOC 1
+#define WARN_FOR_CHARGE_RATE 1
 
 void printMessage(const char *message);
 
