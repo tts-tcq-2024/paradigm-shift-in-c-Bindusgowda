@@ -2,7 +2,7 @@
 #define BATTERY_MON_H
 
 #include <stdio.h>
-#include "parameter_Check.h"
+#include "Parameter_Check.h"
 
 #define CHARGE_RATE_MAX 0.8
 #define TEMPERATURE_MIN 0.0
