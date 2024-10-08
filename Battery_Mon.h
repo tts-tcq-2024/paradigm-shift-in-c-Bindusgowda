@@ -1,8 +1,8 @@
-#ifndef BATTERY_MONITOR_H
-#define BATTERY_MONITOR_H
+#ifndef BATTERY_MON_H
+#define BATTERY_MON_H
 
 #include <stdio.h>
-#include "parameter_state.h"
+#include "parameter_Check.h"
 
 #define CHARGE_RATE_MAX 0.8
 #define TEMPERATURE_MIN 0.0
