@@ -9,8 +9,6 @@
 
 #define WARN_FOR_SOC 1
 
-void printMessage(const char *message);
-
 void checkSoc(float soc, ParameterState *state);
 
 #endif 
