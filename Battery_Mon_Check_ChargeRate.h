@@ -8,8 +8,6 @@
 
 #define WARN_FOR_CHARGE_RATE 1
 
-void printMessage(const char *message);
-
 void checkChargeRate(float chargeRate, ParameterState *state);
 
 #endif 
