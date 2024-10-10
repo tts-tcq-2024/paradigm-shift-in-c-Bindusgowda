@@ -9,6 +9,7 @@ typedef struct {
     const char *warningHigh;
 } ParameterState;
 
+void printMessage(const char *message);
 void setParameterState(ParameterState *state, const char *errorMessage, const char *warningLow, const char *warningHigh);
 void printMessage(const char *message);
 void checkBounds(float value, float min, float max, const char *errorMessage);
