@@ -9,8 +9,6 @@
 
 #define WARN_FOR_TEMPERATURE 1
 
-void printMessage(const char *message);
-
 void checkTemperature(float temperature, ParameterState *state);
 
 #endif 
