@@ -1,11 +1,6 @@
 #include "Battery_Mon_Check_ChargeRate.h"
 #include "Parameter_Check.h"
 
-void printMessage(const char *message)
-{
-    printf("%s\n", message);
-}
-
 void checkChargeRate(float chargeRate, ParameterState *state) 
 {
     setParameterState(state, "Charge Rate out of range!", 
