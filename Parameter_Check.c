@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "Parameter_Check.h"
 
+void printMessage(const char *message)
+{
+    printf("%s\n", message);
+}
+
 void setParameterState(ParameterState *state, const char *errorMessage, const char *warningLow, const char *warningHigh) {
     state->errorMessage = errorMessage;
     state->warningLow = warningLow;
