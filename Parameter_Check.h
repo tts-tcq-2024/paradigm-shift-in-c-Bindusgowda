@@ -1,4 +1,6 @@
-#include "Battery_Mon.h"
+#include "Battery_Mon_Check_ChargeRate.h"
+#include "Battery_Mon_Check_Soc.h"
+#include "Battery_Mon_Chech_Temperature.h"
 
 #ifndef PARAMETER_CHECK_H
 #define PARAMETER_CHECK_H
