@@ -1,11 +1,6 @@
 #include "Battery_Mon_Check_Soc.h"
 #include "Parameter_Check.h"
 
-void printMessage(const char *message)
-{
-    printf("%s\n", message);
-}
-
 void checkSoc(float soc, ParameterState *state) 
 {
     setParameterState(state, "State of Charge out of range!", 
