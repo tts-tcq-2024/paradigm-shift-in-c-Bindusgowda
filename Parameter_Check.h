@@ -4,7 +4,7 @@
 
 #ifndef PARAMETER_CHECK_H
 #define PARAMETER_CHECK_H
-
+#define TOLERANCE_PERCENTAGE 0.05
 typedef struct {
     const char *errorMessage;
     const char *warningLow;
